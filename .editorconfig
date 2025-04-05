@@ -422,5 +422,20 @@ dotnet_diagnostic.SA1615.severity = none
 # SA1649: File name should match first type name
 dotnet_diagnostic.SA1649.severity = none
 
+# SA1200: A C# using directive is placed outside of a namespace element
+dotnet_diagnostic.SA1200.severity = none
+
+# SA1512: A single-line comment within C# code is followed by a blank line
+dotnet_diagnostic.SA1512.severity = none
+
+# SA1515: Single-line comment must be preceded by blank line
+dotnet_diagnostic.SA1515.severity = none
+
+# SA1005: Single-line comment within a C# code file does not begin with a single space
+dotnet_diagnostic.SA1005.severity = none
+
+# SA1118: A parameter to a C# method or indexer, other than the first parameter, spans across multiple lines
+dotnet_diagnostic.SA1118.severity = none
+
 [**/Migrations/*]
 generated_code = true
