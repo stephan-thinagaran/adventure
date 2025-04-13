@@ -15,8 +15,4 @@
     <PackageReference Include="Aspire.Hosting.AppHost" Version="9.0.0" />
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\Adventure.Api\Adventure.Api.csproj" />
-  </ItemGroup>
-
 </Project>
