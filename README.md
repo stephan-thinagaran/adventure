@@ -19,6 +19,8 @@ GO
 ALTER DATABASE <DatabaseName> SET SINGLE_USER WITH ROLLBACK IMMEDIATE;
 GO
 
+----------------------------------------------------------------------------------------------------
+
 @workspace 
 I want to create a project that will be a combination of Vertical slice and Microservice architecture I have already created base solution with .net aspire concept I am trying to use the above mentioned architecture concepts. I want the following things How should I define my project structure to support that architecture I want to use SQL Server as backend and .net core entity framework for database connections I want to use CQRS pattern as well I need to use Redis cache (hybrid cache if possible) I want to support OAuth 2.0 authentication I would like to use Outbox design pattern for event handling I would like to use Fluent validation for validations Suggest me a project structure and base code for that
 
@@ -92,3 +94,11 @@ I want to create a project that will be a combination of Vertical slice and Micr
 |   |-- Adventure.Catalog.UnitTests/
 |   |-- Adventure.Catalog.IntegrationTests/
 |   |-- Adventure.BuildingBlocks.UnitTests/ # (If applicable)
+
+----------------------------------------------------------------------------------------------------
+Service Discovery
+
+Add Adventure.ServiceDefaults reference to targeted api projects
+Then, in the api project, do the following
+builder.AddServiceDefaults();
+app.MapDefaultEndPoints();
