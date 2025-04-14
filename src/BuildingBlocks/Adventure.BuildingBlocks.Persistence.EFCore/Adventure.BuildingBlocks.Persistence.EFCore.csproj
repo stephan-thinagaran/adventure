@@ -20,7 +20,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Entities\" />
+    <Folder Include="AdventureWorks\" />
+    <Folder Include="AdventureWorks\DBContext\" />
+    <Folder Include="AdventureWorks\Entities\" />
   </ItemGroup>
 
 </Project>

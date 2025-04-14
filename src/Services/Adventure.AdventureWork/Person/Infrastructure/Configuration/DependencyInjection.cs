@@ -1,5 +1,5 @@
 using Adventure.BuildingBlocks.Caching;
-using Adventure.BuildingBlocks.Persistence.EFCore.Persistence;
+using Adventure.BuildingBlocks.Persistence.EFCore.AdventureWorks.DBContext;
 
 using Microsoft.EntityFrameworkCore;
 

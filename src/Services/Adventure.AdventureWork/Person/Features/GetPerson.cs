@@ -1,6 +1,4 @@
-using System;
-
-using Adventure.BuildingBlocks.Persistence.EFCore.Persistence;
+using Adventure.BuildingBlocks.Persistence.EFCore.AdventureWorks.DBContext;
 
 using Carter;
 
@@ -34,7 +32,7 @@ public static class GetPerson
                 throw new ValidationException(validationResult.Errors);
             }
 
-            var person = await _dbContext.People.FirstOrDefaultAsync(x => x.BusinessEntityId == request.BusinessEntityId, cancellationToken: cancellationToken);
+            var person = await _dbContext.Person.FirstOrDefaultAsync(x => x.BusinessEntityId == request.BusinessEntityId, cancellationToken: cancellationToken);
 
             return new GetPersonResponse 
             {
