@@ -7,14 +7,14 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Infrastructure\" />
     <Folder Include="Infrastructure\Caching\" />
-    <Folder Include="Infrastructure\Configuration\" />
     <Folder Include="Infrastructure\IntegrationEventHandlers\" />
     <Folder Include="Infrastructure\Persistence\" />
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Aspire.StackExchange.Redis.DistributedCaching" />
+    <PackageReference Include="Aspire.StackExchange.Redis.OutputCaching" />
     <PackageReference Include="Carter" />
     <PackageReference Include="FluentValidation.DependencyInjectionExtensions" />
     <PackageReference Include="MediatR" />
@@ -22,6 +22,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\..\Aspire\Adventure.ServiceDefaults\Adventure.ServiceDefaults.csproj" />
+    <ProjectReference Include="..\..\..\BuildingBlocks\Adventure.BuildingBlocks.Caching\Adventure.BuildingBlocks.Caching.csproj" />
     <ProjectReference Include="..\..\..\BuildingBlocks\Adventure.BuildingBlocks.Core\Adventure.BuildingBlocks.Core.csproj" />
   </ItemGroup>
 

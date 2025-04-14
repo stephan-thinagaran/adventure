@@ -185,6 +185,9 @@ dotnet_diagnostic.SA1202.severity = none
 # SA1202: Elements must be ordered by access
 dotnet_diagnostic.SA1202.severity = none
 
+# SA1028: Code must not contain trailing whitespace
+dotnet_diagnostic.SA1028.severity = none
+
 [*.{cs,vb}]
 
 # Naming rules

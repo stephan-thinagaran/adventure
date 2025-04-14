@@ -1,4 +1,4 @@
-using Adventure.Person.Infrastructure.Configuration;
+using Adventure.AdventureWork.Person.Infrastructure.Configuration;
 using Carter;
 using FluentValidation;
 

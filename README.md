@@ -102,3 +102,13 @@ Add Adventure.ServiceDefaults reference to targeted api projects
 Then, in the api project, do the following
 builder.AddServiceDefaults();
 app.MapDefaultEndPoints();
+----------------------------------------------------------------------------------------------------
+Person
+Production
+Purchase
+Sales
+Warehouse
+Finance
+HumanResource
+
+----------------------------------------------------------------------------------------------------

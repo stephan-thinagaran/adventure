@@ -6,9 +6,14 @@
   <ItemGroup>
     <!--Aspire AppHost-->
     <PackageVersion Include="Aspire.Hosting.AppHost" Version="9.0.0" />
+    <PackageVersion Include="Aspire.Hosting.Azure.Redis" Version="9.2.0" />
+    <PackageVersion Include="Aspire.Hosting.Redis" Version="9.2.0" />
+    <PackageVersion Include="Aspire.StackExchange.Redis.DistributedCaching" Version="9.2.0" />
+    <PackageVersion Include="Aspire.StackExchange.Redis.OutputCaching" Version="9.2.0" />
     <PackageVersion Include="Carter" Version="9.0.0" />
     <PackageVersion Include="FluentValidation.DependencyInjectionExtensions" Version="11.11.0" />
     <PackageVersion Include="MediatR" Version="12.5.0" />
+    <PackageVersion Include="Microsoft.Extensions.Caching.StackExchangeRedis" Version="9.0.2" />
     <!--Aspire ServiceDefaults-->
     <PackageVersion Include="Microsoft.Extensions.Http.Resilience" Version="9.0.0" />
     <PackageVersion Include="Microsoft.Extensions.ServiceDiscovery" Version="9.0.0" />
