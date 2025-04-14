@@ -112,3 +112,9 @@ Finance
 HumanResource
 
 ----------------------------------------------------------------------------------------------------
+Microsoft.EntityFrameworkCore.Design
+Microsoft.EntityFrameworkCore.SqlServer
+Microsoft.EntityFrameworkCore.Tools
+
+dotnet ef dbcontext scaffold "data source=CIQLAP139\SQL2022_INSTANCE;initial catalog=AdventureWorks2022;user id=sa;password=cloudiq@123;TrustServerCertificate=True;" Microsoft.EntityFrameworkCore.SqlServer --output-dir Entities --context-dir Persistence --context AdventureWorksDbContext --no-onconfiguring
+----------------------------------------------------------------------------------------------------

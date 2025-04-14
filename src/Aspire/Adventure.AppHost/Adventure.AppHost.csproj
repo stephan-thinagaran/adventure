@@ -14,9 +14,10 @@
   <ItemGroup>
     <PackageReference Include="Aspire.Hosting.AppHost" />
     <PackageReference Include="Aspire.Hosting.Redis" />
+    <PackageReference Include="Aspire.Hosting.SqlServer" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\Services\Adventure.AdventureWork\Adventure.AdventureWork.csproj" />
+    <ProjectReference Include="..\..\Services\Adventure.AdventureWork\Adventure.AdventureWork.csproj" />
   </ItemGroup>
 </Project>

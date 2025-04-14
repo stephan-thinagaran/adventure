@@ -1,6 +1,0 @@
-@Adventure.Finance_HostAddress = http://localhost:5110
-
-GET {{Adventure.Finance_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###

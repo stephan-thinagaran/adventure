@@ -27,7 +27,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adventure.AppHost", "src\As
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adventure.ServiceDefaults", "src\Aspire\Adventure.ServiceDefaults\Adventure.ServiceDefaults.csproj", "{9ADC1BB0-7623-4911-A109-882A5C8FC2EB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adventure.AdventureWork", "Services\Adventure.AdventureWork\Adventure.AdventureWork.csproj", "{94C230C4-305B-479C-B3B7-FD17C8CD356C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adventure.AdventureWork", "src\Services\Adventure.AdventureWork\Adventure.AdventureWork.csproj", "{94C230C4-305B-479C-B3B7-FD17C8CD356C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
